@@ -50,7 +50,7 @@ const Header = ({sidebar, setSidebar}) => {
 							<p>DCP</p>
 							<div className="dropdown-sec">
 							<div className="dropdown">
-								<a href="https://yodacoinswap.com/" target="_blank">Buy on Yoda Swap</a>
+								<a href="https://yodeswap.dog/exchange/swap?outputCurrency=0xDb00D2e2931835367689353bc8bD06a1c1f903AF" target="_blank">Buy on Yoda Swap</a>
 							</div>
 							</div>
 							
