@@ -38,9 +38,9 @@ const walletConnect = () => {
 var formatter = new Intl.NumberFormat('en-US', {});
 
 const getData = async () => {
-  const provider: any = new ethers.providers.JsonRpcProvider(
-    REACT_APP_RPC_DOGICHAIN as any
-    // window.ethereum as any
+  const provider: any = new ethers.providers.Web3Provider(
+    // REACT_APP_RPC_DOGICHAIN as any
+    window.ethereum as any
   )
 
   const contract = new ethers.Contract(

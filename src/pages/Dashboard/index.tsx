@@ -53,9 +53,9 @@ const Dashboard = () => {
 const getData = async () => {
   // alert(Number("1344444324214").toFixed(0).replace(/\d(?=(\d{3})+\.)/g, '$&,'))
 
-  const provider: any = new ethers.providers.JsonRpcProvider(
-    REACT_APP_RPC_DOGICHAIN as any
-    // window.ethereum as any
+  const provider: any = new ethers.providers.Web3Provider(
+    // REACT_APP_RPC_DOGICHAIN as any
+    window.ethereum as any
   )
 //   try {
 //     provider.send('eth_requestAccounts', []);
