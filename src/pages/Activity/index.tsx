@@ -57,7 +57,7 @@ const Accountpage = () => {
                 <th scope="col">Method</th>
                 <th scope="col">Date</th>
                 <th scope="col">Amount</th>
-                <th scope="col">$ SAFUU</th>
+                <th scope="col">$ POMF</th>
                 <th scope="col">$ BNB</th>
                 </tr>
               </thead>
