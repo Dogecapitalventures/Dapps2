@@ -182,7 +182,7 @@ const timmerFun = () => {
           </div>
            <div className="card parallel-border-lr mx-2">
             <div className="card-title-regular">Circulating Supply</div>
-            <div className="card-value">{/*formatter.format(parseInt( String(Number(crSupply))))?.slice(-7)*/}100,000</div>
+            <div className="card-value">{/*formatter.format(parseInt( String(Number(crSupply))))?.slice(-7)*/}60,000</div>
           </div>
 
 
