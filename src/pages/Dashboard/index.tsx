@@ -176,24 +176,14 @@ const timmerFun = () => {
             </div>
           </div>
 
-        <div className="card parallel-border-lr mx-2">
-            <div className="card-title-regular">Total Supply</div>
-            <div className="card-value">{formatter.format(parseInt( String(Number(totalSupply))))?.slice(-7)}</div>
-          </div>
-           <div className="card parallel-border-lr mx-2">
-            <div className="card-title-regular">Circulating Supply</div>
-            <div className="card-value">{/*formatter.format(parseInt( String(Number(crSupply))))?.slice(-7)*/}60,000</div>
-          </div>
-
-
-         {/*} <div className="card parallel-border-lr mx-2">
+       <div className="card parallel-border-lr mx-2">
             <div className="card-title-regular">Total Supply</div>
             <div className="card-value">{formatter.format(parseInt( String(Number(totalSupply))))?.slice(-7)}</div>
           </div>
           <div className="card parallel-border-lr mx-2">
             <div className="card-title-regular">Circulating Supply</div>
             <div className="card-value">{formatter.format(parseInt( String(Number(crSupply))))?.slice(-7)}</div>
-          </div> */}
+          </div>
         </div>
         <div className="col-lg-4 col-md-12 middle d-flex flex-column justify-content-center align-items-center">
           <div className="d-flex align-items-center justify-content-center flex-column">
