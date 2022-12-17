@@ -199,7 +199,7 @@ const timmerFun = () => {
           <div className="d-flex align-items-center justify-content-center flex-column">
             <div className="btn--outline card parallel-border-lr">
               POMF PRICE
-            <div className="card-value1">${/*dcpPrice*/}</div>
+            <div className="card-value1">${dcpPrice}</div>
             </div>
             <div className="card card-timmer mx-2">
               {/* <div className="card-value">$3.14</div> */}
